@@ -58,7 +58,7 @@ function TextOpacity({ children, trigger }) {
 
   return (
     <div ref={containerRef} className={styles.title}>
-      {children}
+      <div className={styles.innerChild}>{children}</div>
     </div>
   );
 }

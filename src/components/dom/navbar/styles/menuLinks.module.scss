@@ -66,7 +66,7 @@
     font-size: 2.3vw;
     line-height: 130%;
     font-weight: 550;
-    color: var(--accentColor);
+    color: var(--white);
     display: inline-block;
     @include mobile {
       font-size: 5.9vw;
@@ -148,7 +148,7 @@
   span {
     font-size: 1.9vw;
     display: block;
-    color: var(--white);
+    color: var(--white) !important;
     text-decoration: none;
 
     @include mobile {

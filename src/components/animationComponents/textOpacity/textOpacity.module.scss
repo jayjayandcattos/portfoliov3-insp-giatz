@@ -5,4 +5,7 @@
   @include mobile {
     width: 100%;
   }
+  & > .innerChild {
+    overflow: hidden;
+  }
 }

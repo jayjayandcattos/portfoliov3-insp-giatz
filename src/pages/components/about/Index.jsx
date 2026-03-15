@@ -41,7 +41,7 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority src="/giats/front.webp" sizes="100%" fill alt="Justin Rivera" />
+      <Image priority src="/lungsodngmaynila.png" sizes="100%" width={619} height={823} style={{ width: '100%', height: 'auto' }} alt="Justin Rivera" />
     </div>
   );
 
@@ -58,28 +58,21 @@ function About() {
         {isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
-            <div className="p-l">“My solo learning journey as a self-taught</div>
-            <div className="p-l">developer empowers me to solve problems</div>
-            <div className="p-l">creatively and efficiently, supporting the</div>
-            <div className="p-l">successful completion of your project goals”</div>
+            <div className="p-l">“Work until you no longer have to</div>
+            <div className="p-l">introduce yourself.” - Harvey Specter</div>
           </AppearTitle>
         </div>
         {!isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">A passionate front-end developer based in the US.</h6>
-              <h6 className="h6">With a strong eye for design and a dedication to</h6>
-              <h6 className="h6">creating seamless user experiences. I specialize in</h6>
-              <h6 className="h6">bringing web applications to life with clean and efficient</h6>
-              <h6 className="h6">code.</h6>
+              <h6 className="h6">A 3rd-year student at Quezon City University (QCU)</h6>
+              <h6 className="h6">with an unrelenting passion for both technology and gaming.</h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6"> A passionate front-end developer based in the US. With a</h6>
-              <h6 className="h6">strong eye for design and a dedication to creating seamless</h6>
-              <h6 className="h6">user experiences. I specialize in bringing web applications to life</h6>
-              <h6 className="h6">with clean and efficient code.</h6>
+              <h6 className="h6"> A 3rd-year student at Quezon City University (QCU) with an </h6>
+              <h6 className="h6">unrelenting passion for both technology and gaming.</h6>
             </AppearTitle>
           )}
         </div>

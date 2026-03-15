@@ -44,11 +44,10 @@ function Navbar() {
       <header className={styles.root} role="banner">
         <div className={styles.innerHeader}>
           <Link onClick={goToTop} aria-label="Go home" scroll={false} href="/">
-            <h4 className={clsx('bold', 'h4')}>JUSTIN</h4>
+            <h4 style={{ color: '#fff' }} className={clsx('bold', 'h4')}>JUSTIN</h4>
           </Link>
 
           <div className={styles.rightContainer}>
-            {!isMobile && <ButtonLink href="mailto:hello@justinrivera.com" label="GET IN TOUCH" />}
             <MenuButton />
           </div>
         </div>

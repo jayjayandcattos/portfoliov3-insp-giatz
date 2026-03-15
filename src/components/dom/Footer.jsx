@@ -131,7 +131,7 @@ function Footer() {
       </div>
 
       <div className={styles.giats}>
-        <span>JUSTIN</span>
+        <span style={{ color: '#fff' }}>JUSTIN</span>
       </div>
       <div className={styles.goToTop}>
         <GoTop />

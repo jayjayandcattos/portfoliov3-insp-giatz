@@ -149,28 +149,10 @@ function MenuLinks() {
           }}
           className={styles.menuList}
         >
-          <div
-            role="presentation"
-            ref={(el) => {
-              menuLinksItemsRef.current[menuLinks.length + projectsLinks.length + 3] = el;
-            }}
-            className={styles.menuListItem}
-          >
-            <Link aria-label="Send email" scroll={false} href="mailto:hello@justinrivera.com">
-              <span>GET IN TOUCH</span>
-            </Link>
-          </div>
-        </div>
-        <div
-          ref={(el) => {
-            menuLinksItemsRef.current[menuLinks.length + projectsLinks.length + 4] = el;
-          }}
-          className={styles.menuList}
-        >
           {footerLinks.map((link, index) => (
             <div
               ref={(el) => {
-                menuLinksItemsRef.current[menuLinks.length + projectsLinks.length + index + 4] = el;
+                menuLinksItemsRef.current[menuLinks.length + projectsLinks.length + index + 3] = el;
               }}
               key={link.title}
               className={styles.menuListItem}
