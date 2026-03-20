@@ -16,7 +16,7 @@ import { useStore } from '@src/store';
 import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
-  title: 'Justin - Projects',
+  title: 'Jayzeee - Projects',
   description: 'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
   keywords: [
     'Justin Projects',

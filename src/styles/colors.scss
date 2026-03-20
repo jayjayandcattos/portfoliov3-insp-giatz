@@ -16,3 +16,12 @@ html {
     // --#{$name}-transparent: #{color.change($color, $alpha: 0)};
   }
 }
+
+html.light-theme {
+  --white: #f5f1e6;
+  --black: #18181d;
+  --menuColor: #f5f1e6;
+  --accentColor: #18181d;
+  --fillColor: #2a3d1a;
+  --menuFontColor: #18181d;
+}

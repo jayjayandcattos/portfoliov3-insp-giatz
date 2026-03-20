@@ -96,8 +96,8 @@ function Footer() {
           <h4 className={clsx(styles.workWithMe, 'h4')}>Work With Me:</h4>
           <div>
             <div className={styles.link}>
-              <Link aria-label="Send email" scroll={false} href="mailto:hello@justinrivera.com">
-                <h4 className={clsx(styles.email, 'h4')}>hello@justinrivera.com</h4>
+              <Link aria-label="Send email" scroll={false} href="mailto:rivera.justin.santilla@gmail.com">
+                <h4 className={clsx(styles.email, 'h4')}>rivera.justin.santilla@gmail.com</h4>
               </Link>
               {/* class="link__graphic link__graphic--slide" */}
               <svg className={clsx(styles.linkGraphic)} width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
@@ -117,12 +117,7 @@ function Footer() {
         </AppearTitle>
       </div>
 
-      <div className={styles.middleContainer} style={{ gridColumn: '9 / 13' }}>
-        <AppearTitle isFooter>
-          <div className="p-x">Availability</div>
-          <div className={clsx('p-x', styles.middleText)}>Currently available for limited projects</div>
-        </AppearTitle>
-      </div>
+
       <div className={styles.middleContainer} style={{ gridColumn: '13 / 17', textAlign: isMobile ? 'left' : 'right' }}>
         <AppearTitle isFooter>
           <div className="p-x">© 2025 · Justin Rivera</div>
@@ -131,7 +126,7 @@ function Footer() {
       </div>
 
       <div className={styles.giats}>
-        <span style={{ color: '#fff' }}>JUSTIN</span>
+        <span style={{ color: 'var(--black)', transition: 'color 0.5s ease' }}>JAYZEEE</span>
       </div>
       <div className={styles.goToTop}>
         <GoTop />

@@ -62,7 +62,7 @@ function Projects() {
     <>
       <section className={clsx(styles.titleContainer, 'layout-grid-inner')}>
         <h1 className={clsx(styles.title, 'h1')}>
-          <AppearByWords>Selected Projects</AppearByWords>
+          <AppearByWords>Featured Projects</AppearByWords>
         </h1>
       </section>
       <section ref={rootRef} className={clsx(styles.root, 'layout-block-inner')}>

@@ -1,19 +1,19 @@
 const footerLinks = [
   {
     title: 'Github',
-    href: '#',
+    href: 'https://github.com/jayjayandcattos',
   },
   {
     title: 'LinkedIn',
-    href: '#',
+    href: 'https://www.linkedin.com/in/justin-rivera-384765204/',
   },
   {
     title: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/jayzeemerowlin/',
   },
   {
-    title: 'Twitter',
-    href: '#',
+    title: 'Facebook',
+    href: 'https://www.facebook.com/jayczera',
   },
 ];
 export default footerLinks;

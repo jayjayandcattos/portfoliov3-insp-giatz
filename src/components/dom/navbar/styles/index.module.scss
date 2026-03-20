@@ -32,6 +32,39 @@
       display: flex;
       gap: var(--layout-columns-gap);
       align-items: center;
+
+      .themeToggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5vw;
+        height: 2.5vw;
+        border-radius: 50%;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        transition: transform 0.3s ease;
+
+        @include mobile {
+          width: 6vw;
+          height: 6vw;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        .themeIcon {
+          width: 1.6vw;
+          height: 1.6vw;
+          color: var(--black);
+          @include mobile {
+            width: 4vw;
+            height: 4vw;
+          }
+        }
+      }
     }
   }
 }

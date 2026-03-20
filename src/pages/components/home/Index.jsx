@@ -2,6 +2,7 @@ import { useCallback, useMemo, useRef, useState } from 'react';
 
 import FloatingMeshes from '@src/pages/components/home/components/floatingMeshes/Index';
 import InfiniteText from '@src/components/animationComponents/infiniteText/Index';
+import GradientOrb from '@src/components/animationComponents/gradientOrb/Index';
 import clsx from 'clsx';
 import { gsap } from 'gsap';
 import styles from '@src/pages/components/home/styles/home.module.scss';
@@ -227,6 +228,9 @@ function Home() {
         <div className={styles.leftContainer}>
           <h2 className="h2">BUILD</h2>
           <h2 className={clsx('h2', 'bold')}>WHAT OTHERS ENVY.</h2>
+        </div>
+        <div className={styles.rightContainer} style={{ position: 'relative' }}>
+          <GradientOrb />
         </div>
       </div>
 
