@@ -87,7 +87,7 @@
     counter-reset: menulist2 4;
     &::before {
       font-weight: 700;
-      content: 'Selected Projects';
+      content: 'Featured Projects';
 
       margin-bottom: var(--layout-columns-gap);
     }

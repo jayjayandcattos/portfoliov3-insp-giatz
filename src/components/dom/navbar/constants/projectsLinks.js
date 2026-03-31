@@ -1,14 +1,14 @@
 const projectsLinks = [
   {
-    title: 'Project 3',
+    title: 'ELECT',
     href: '/projects/project3',
   },
   {
-    title: 'Project 4',
+    title: 'EVERGREEN',
     href: '/projects/project4',
   },
   {
-    title: 'Project 2',
+    title: 'LABGUARD',
     href: '/projects/project2',
   },
 ];

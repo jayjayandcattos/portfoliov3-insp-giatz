@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 'project3',
-    title: 'Project3',
+    title: 'ELECT',
     img: '/project3/project3.webp',
     link: '/projects/project3',
     date: '2023',
@@ -69,7 +69,7 @@ const projects = [
   },
   {
     id: 'project4',
-    title: 'Project4',
+    title: 'EVERGREEN',
     img: '/project4/project4.webp',
     link: '/projects/project4',
     date: '2024',
@@ -146,82 +146,8 @@ const projects = [
     ],
   },
   {
-    id: 'project5',
-    title: 'Project5',
-    img: '/project5/project5.webp',
-    link: '/projects/project5',
-    date: '2024',
-    company: 'Project 5',
-    liveLink: undefined,
-    primary: '#000000',
-    accentColor: '#f0f4f1',
-    secondary: '#FAFAFA',
-    fillColor: '#f2f2f2',
-    menuColor: '#FFD54F',
-    menuFontColor: '#000000',
-    fluidColor: '#002AB0',
-    images: [
-      {
-        src: '/project5/1.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project5/2.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project5/3.webp',
-        tag: 'medium',
-        isRight: false,
-      },
-      {
-        src: '/project5/4.webp',
-        tag: 'medium',
-        isRight: false,
-      },
-      {
-        src: '/project5/5.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project5/6.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project5/7.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project5/8.webp',
-        tag: 'big',
-        isRight: false,
-      },
-      {
-        src: '/project5/9.webp',
-        tag: 'medium',
-        isRight: false,
-      },
-      {
-        src: '/project5/10.webp',
-        tag: 'medium',
-        isRight: false,
-      },
-    ],
-    desc: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    ],
-  },
-  {
     id: 'project1',
-    title: 'Project1',
+    title: 'NEUKAI',
     img: '/project1/project1.webp',
     link: '/projects/project1',
     date: '2024',
@@ -288,7 +214,7 @@ const projects = [
   },
   {
     id: 'project2',
-    title: 'Project2',
+    title: 'LABGUARD',
     img: '/project2/project2.webp',
     link: '/projects/project2',
     date: '2022',

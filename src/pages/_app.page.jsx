@@ -5,7 +5,7 @@ import '@src/styles/global.css';
 
 import * as THREE from 'three';
 
-import { useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 
 import { Analytics } from '@vercel/analytics/react';
 import Background from '@src/components/canvas/background/Index';
@@ -45,7 +45,7 @@ if (typeof window !== 'undefined') {
 }
 
 function MyApp({ Component, pageProps, router }) {
-  const [lenis, setLenis, fluidColor, isAbout] = useStore(useShallow((state) => [state.lenis, state.setLenis, state.fluidColor, state.isAbout]));
+  const [lenis, setLenis, fluidColor, isAbout, isDarkTheme] = useStore(useShallow((state) => [state.lenis, state.setLenis, state.fluidColor, state.isAbout, state.isDarkTheme]));
 
   const mainRef = useRef();
   const mainContainerRef = useRef();
